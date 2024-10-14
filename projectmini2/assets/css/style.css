@@ -68,7 +68,7 @@
     }
 /* section-one */
 .section-one{
-    background-image:url('./image/background-one.png');
+    background-image:url('./background-one.png');
     background-size: cover;
     height:100vh;
     background-position: center;
@@ -207,7 +207,7 @@
 /* section-three */
 /* section-five */
 .section-five {
-    background-image:url(./image/background-two.png) ;
+    background-image:url(./background-two.png) ;
     width: auto;
     height:80vh;
     background-size: cover;
