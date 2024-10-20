@@ -73,12 +73,36 @@
         var height = canvas.height();        
         canvas.attr("width", width);
         canvas.attr("height", height);
-        var opts = {
-            seed: {
-                x: width / 2 - 20,
-                color: "rgb(190, 26, 37)",
-                scale: 2
-            },
+        // var opts = {
+        //     seed: {
+        //         x: width / 2 - 20,
+        //         color: "rgb(190, 26, 37)",
+        //         scale: 2
+        //     },
+            var opts = {
+    seed: {
+        x: width / 2 - 20,
+        color: "rgb(190, 26, 37)", // màu của trái tim
+        scale: 2
+    },
+    branch: [
+        [535, 680, 570, 250, 500, 200, 30, 100, [ // toạ độ để vẽ trái tim và nhánh cây
+            // các nhánh con và phần tiếp theo
+        ]] 
+    ],
+    bloom: {
+        num: 700, // số lượng hoa
+        width: 1080,
+        height: 650,
+    },
+    footer: {
+        width: 1200,
+        height: 5,
+        speed: 10,
+    }
+};
+
+            
             branch: [
                 [535, 680, 570, 250, 500, 200, 30, 100, [
                     [540, 500, 455, 417, 340, 400, 13, 100, [

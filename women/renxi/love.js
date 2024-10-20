@@ -524,6 +524,14 @@
             }
         }
     }
+    var img = new Image();
+img.src = "/image/tym.png"; // Thay bằng đường dẫn hình ảnh từ Google
+
+img.onload = function() {
+    var ctx = canvas[0].getContext("2d");
+    ctx.drawImage(img, width / 2 - img.width / 2, height / 2 - img.height / 2, img.width, img.height);
+};
+
 
     window.random = random;
     window.bezier = bezier;
