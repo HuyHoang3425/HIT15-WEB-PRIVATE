@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    background-color: #FF95D3;
+    width:100%;
+    height:100vh;
+    padding:170px 0;
+}
+.inner-content{
+    background-color: #FFA9D0;
+    width:100%;
+    padding:20px 400px;
+    text-align: center;
+    
+}
+.inner-box{
+    background-color: #FFD4E8;
+    border:2px solid #FF95D3;
+    width:100%;
+    height:300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h2{
+    margin:20px 0;
+}
+span{
+    font-weight: 700;
+    font-size: 32px;
+
+}
+p{
+    margin-bottom:10px;
+}
+input{
+    width:500px;
+    height:30px;
+    border-radius: 8px;
+    border: none;
+    padding:6px 12px;
+}
+button{
+    margin-top:20px;
+    background-color: #FEB5DF;
+    width:100px;
+    height:30px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+}
+.blue{
+    color:#736ED6;
+}
+.red{
+    color:#D82C48;
+}
+.yellow{
+    color:#F4C671;
+}
+.green{
+    color:#4AA47B;
+}
+.inner-gg{
+    margin:20px;
+}
