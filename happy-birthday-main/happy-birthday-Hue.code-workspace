@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../happy-birthday-Hue"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "happy-birthday-main"
+	}
+}
