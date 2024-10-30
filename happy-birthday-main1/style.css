@@ -123,7 +123,7 @@ body{
 .container .cake{
     position: absolute;
     width: 100%;
-    height:100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     outline: none;
@@ -948,7 +948,7 @@ span{
 }
 .container .cute1::after{
     position: absolute;
-    content: 'Ngạc nhiên chưa';
+    content: 'Ngạc nhiên chưa "girl especially"';
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 10px;
