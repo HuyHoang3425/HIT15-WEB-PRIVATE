@@ -59,6 +59,9 @@ header{
     /* padding:20px 100px; */
     margin:20px 0;
 }
+ul li:nth-child(1){
+    color:#FF7D01;
+}
 /* header */
 
 /* section-one */
