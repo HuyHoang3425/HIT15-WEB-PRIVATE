@@ -92,6 +92,7 @@ ul li:nth-child(1){
     height: 555px;
     left:calc((512.92px - 428.54px )/2);
     bottom: -6px; 
+    width: 428.54px;
 }
 .Abstract-1{
     top:80px;

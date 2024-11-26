@@ -5,26 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .content{
+        .container div{
             border:1px solid #ddd;
             background-color:rgb(89, 115, 115);
-            height: 50px;
+
+    
         }
         .container{
+            height:700px;
             display: grid;
-            grid-template-rows:100px 100px;
-            grid-template-columns:100px 200px;
+            grid-template-columns:repeat(7,1fr);  
+            grid-template-rows:repeat(9,1fr);       
+        }
+        .content1{
+            grid-column: 1 / 8;
+        }
+        .content2{
+            grid-column: 1 / 5;
+            grid-row: 2 / 6;
+        }
+        .content3{
+            grid-column: 5 / 7;
+        }
+        .content4{
+            grid-column: 7 / 8;
+            grid-row: 2 /4;
+        }
+        .content5{
+            grid-column: 5/ 6;
+            grid-row: 3 /6;
+        }
+        .content6{
+            grid-column: 6/ 7;
+            grid-row: 3 /6;
+        }
+        .content7{
+            grid-column: 7/ 8;
+            grid-row: 4 /9;
+        }
+        .content8{
+            grid-column: 1/ 4;
+        }
+        .content9{
+            grid-column: 4/ 7;
+            grid-row:6 /8;
+        }
+        .content10{
+            grid-column: 1/ 4;
+            grid-row:7 /9;
+        }
+        .content11{
+            grid-column: 4/ 7;
+            grid-row:8 /9;
+        }
+        .content12{
+            grid-column: 1/ 8;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
+        <div class="content1"></div>
+        <div class="content2"></div>
+        <div class="content3"></div>
+        <div class="content4"></div>
+        <div class="content5"></div>
+        <div class="content6"></div>
+        <div class="content7"></div>
+        <div class="content8"></div>
+        <div class="content9"></div>
+        <div class="content10"></div>
+        <div class="content11"></div>
+        <div class="content12"></div>
     </div>
 </body>
 </html>
