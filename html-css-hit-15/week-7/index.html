@@ -5,61 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            padding:80px 100px;
+            background: linear-gradient(180deg, rgba(227,101,104,1) 10%, rgba(144,150,224,1) 90%);
+        }
         .container div{
-            border:1px solid #ddd;
-            background-color:rgb(89, 115, 115);
-
-    
+            border:1px solid #000000;
         }
         .container{
-            height:700px;
+            height:calc(100vh - 160px);
             display: grid;
             grid-template-columns:repeat(7,1fr);  
-            grid-template-rows:repeat(9,1fr);       
+            grid-template-rows:repeat(9,1fr); 
+            border-radius: 8px;      
         }
         .content1{
             grid-column: 1 / 8;
+            background-color:#D5E8D4;
+            border-radius: 8px 8px 0 0 ;  
         }
         .content2{
             grid-column: 1 / 5;
             grid-row: 2 / 6;
+            background-color:#FFF2CD;
         }
         .content3{
             grid-column: 5 / 7;
+            background-color:#D9E8FB;
         }
         .content4{
             grid-column: 7 / 8;
             grid-row: 2 /4;
+            background-color:#FFE6CD;
         }
         .content5{
             grid-column: 5/ 6;
             grid-row: 3 /6;
+            background-color:#F7CECC;
         }
         .content6{
             grid-column: 6/ 7;
             grid-row: 3 /6;
+            background-color:#F5F5F5;
         }
         .content7{
             grid-column: 7/ 8;
             grid-row: 4 /9;
+            background-color:#E2D5E7;
         }
         .content8{
             grid-column: 1/ 4;
+            background-color:#D9E8FB;
         }
         .content9{
             grid-column: 4/ 7;
             grid-row:6 /8;
+            background-color:#D5E8D4;
         }
         .content10{
             grid-column: 1/ 4;
             grid-row:7 /9;
+            background-color:#E2D5E7;
         }
         .content11{
             grid-column: 4/ 7;
             grid-row:8 /9;
+            background-color:#FFF2CD;
         }
         .content12{
             grid-column: 1/ 8;
+            background-color:#F6CDCB;
+            border-radius:0 0  8px 8px ; 
         }
     </style>
 </head>
