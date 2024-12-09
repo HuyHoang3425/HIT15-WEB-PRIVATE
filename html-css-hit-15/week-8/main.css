@@ -1,4 +1,4 @@
-@media (max-width:1238px) {
+@media (max-width:1278px) {
 
     /* section-1 */
     .coffee {
@@ -106,286 +106,299 @@
     .section-5 {
         padding: 30px 80px;
     }
-        .section-5 .inner-title{
-            margin-bottom: 20px;
-            font-size: 44px;
-        }
 
-        .section-5 .inner-title-1 {
-            font-size: 28pxpx;
-        }
-        .section-5 .inner-decs {
-            font-size: 18px;
-        }
-        /* .section-5 */
+    .section-5 .inner-title {
+        margin-bottom: 20px;
+        font-size: 44px;
     }
 
-    @media (max-width:992px) {
-
-        /* section-1 */
-        .section-1 .inner-card-2 input {
-            width: 170px;
-        }
-
-        .section-1 .inner-card-2 {
-            padding: 20px 0 0 30px;
-        }
-
-        .form div img {
-            left: 40px;
-        }
-
-        .inner-card-3 img {
-            width: 80px;
-            height: 80px;
-        }
-
-        .section-1 .inner-card-1 .coffee {
-            width: 250px;
-            height: 250px;
-            right: -125px;
-            top: 50%;
-        }
-
-        .inner-card-1 h1 {
-            font-size: 40px;
-        }
-
-        .inner-card-1 h1 span {
-            font-size: 40px;
-        }
-
-        .section-1 .inner-card-2 input {
-            width: 130px;
-        }
-
-        .inner-card-1 .inner-decs {
-            font-size: 14px;
-        }
-
-        /* section-1 */
-
-
-        /* section-2 */
-        .section-2 .inner-option {
-            display: grid;
-            grid-template-columns: 240px 240px;
-            grid-template-rows: 1fr 1fr;
-
-        }
-
-        .section-2 {
-            margin: 0 150px;
-        }
-
-        /* section-2 */
+    .section-5 .inner-title-1 {
+        font-size: 28pxpx;
     }
 
-    @media (max-width:890px) {
-
-        /* section-1 */
-        .inner-card-1 h1 {
-            font-size: 36px;
-        }
-
-        .inner-card-1 h1 span {
-            font-size: 36px;
-        }
-
-        .section-1 .inner-card-2 input {
-            width: 130px;
-        }
-
-        .inner-card-1 .inner-decs {
-            font-size: 14px;
-        }
-
-        /* section-1 */
-
-        /* section-2 */
-        .section-2 .inner-option {
-            display: grid;
-            grid-template-columns: 240px 240px;
-            grid-template-rows: 1fr 1fr;
-        }
-
-        .section-2 {
-            margin: 80px;
-        }
-
-        /* section-2 */
-
-        /* section-3 */
-        .section-3 {
-            padding: 30px 30px;
-        }
-
-        /* section-3 */
-
-        /* section-6 */
-        .section-6{
-            padding:30px 80px;
-        }
-        /* section-6 */
+    .section-5 .inner-decs {
+        font-size: 18px;
     }
 
-    @media (max-width:689px) {
+    /* .section-5 */
+}
 
-        /* section-1 */
-        .section-1 {
-            display: block;
-        }
+@media (max-width:992px) {
 
-        .section-1 .inner-card-1 {
-            width: 100%;
-            padding: 20px 30px;
+    /* section-1 */
+    .section-1 .inner-card-2 input {
+        width: 170px;
+    }
 
-        }
+    .section-1 .inner-card-2 {
+        padding: 20px 0 0 30px;
+    }
 
-        .section-1 .inner-card-2 {
-            width: 100%;
+    .form div img {
+        left: 40px;
+    }
 
-        }
+    .inner-card-3 img {
+        width: 80px;
+        height: 80px;
+    }
 
-        .section-1 .inner-card-1 .coffee {
-            display: none;
-        }
+    .section-1 .inner-card-1 .coffee {
+        width: 250px;
+        height: 250px;
+        right: -125px;
+        top: 50%;
+    }
 
-        .section-1 .inner-card-2 .coffee {
-            display: inline-block;
-            margin-top: 100px;
-        }
+    .inner-card-1 h1 {
+        font-size: 40px;
+    }
 
-        .form {
-            width: calc(100%-60px);
-        }
+    .inner-card-1 h1 span {
+        font-size: 40px;
+    }
 
-        .form div {
-            width: 100%;
-        }
+    .section-1 .inner-card-2 input {
+        width: 130px;
+    }
 
-        .section-1 .inner-card-2 input {
-            width: 100%;
-        }
+    .inner-card-1 .inner-decs {
+        font-size: 14px;
+    }
 
-        .section-1 .inner-card-2 {
-            padding: 20px 30px;
-        }
+    /* section-1 */
 
-        .inner-card-3 {
-            margin-left: 30px;
-            margin-right: 30px;
-            height: 100px;
-            margin-top: -50px;
-        }
 
-        .inner-card-3 img {
-            width: 50px;
-            height: 50px;
-        }
+    /* section-2 */
+    .section-2 .inner-option {
+        display: grid;
+        grid-template-columns: 240px 240px;
+        grid-template-rows: 1fr 1fr;
 
-        /* section-1 */
+    }
 
-        /* section-2 */
-        .section-2 .inner-option {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+    .section-2 {
+        margin: 0 150px;
+    }
 
-        }
+    /* section-2 */
+}
 
-        .section-2 {
-            padding: auto;
-        }
+@media (max-width:890px) {
 
-        /* section-2 */
+    /* section-1 */
+    .inner-card-1 h1 {
+        font-size: 36px;
+    }
 
-        /* .section-4 */
-        .section-4 .inner-option {
-            display: flex;
-            flex-direction: column;
-            /* justify-content: center; */
-            align-items: center;
-            /* padding: auto; */
+    .inner-card-1 h1 span {
+        font-size: 36px;
+    }
 
-        }
+    .section-1 .inner-card-2 input {
+        width: 130px;
+    }
 
-        .section-4 {
-            margin: auto
-        }
+    .inner-card-1 .inner-decs {
+        font-size: 14px;
+    }
 
-        /* .section-4 */
+    /* section-1 */
 
-        /* .section-5 */
+    /* section-2 */
+    .section-2 .inner-option {
+        display: grid;
+        grid-template-columns: 240px 240px;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .section-2 {
+        margin: 80px;
+    }
+
+    /* section-2 */
+
+    /* section-3 */
+    .section-3 {
+        padding: 30px 30px;
+    }
+
+    /* section-3 */
+
+    /* section-6 */
+    .section-6 {
+        padding: 30px 80px;
+    }
+
+    /* section-6 */
+}
+
+@media (max-width:689px) {
+
+    /* section-1 */
+    .section-1 {
+        display: block;
+    }
+
+    .section-1 .inner-card-1 {
+        width: 100%;
+        padding: 20px 30px;
+
+    }
+
+    .section-1 .inner-card-2 {
+        width: 100%;
+
+    }
+
+    .section-1 .inner-card-1 .coffee {
+        display: none;
+    }
+
+    .section-1 .inner-card-2 .coffee {
+        display: inline-block;
+        margin-top: 100px;
+    }
+
+    .form {
+        width: calc(100%-60px);
+    }
+
+    .form div {
+        width: 100%;
+    }
+
+    .section-1 .inner-card-2 input {
+        width: 100%;
+    }
+
+    .section-1 .inner-card-2 {
+        padding: 20px 30px;
+    }
+
+    .inner-card-3 {
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 100px;
+        margin-top: -50px;
+    }
+
+    .inner-card-3 img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* section-1 */
+
+    /* section-2 */
+    .section-2 .inner-option {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .section-2 {
+        padding: auto;
+    }
+
+    /* section-2 */
+
+    /* .section-4 */
+    .section-4 .inner-option {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* padding: auto; */
+
+    }
+
+    .section-4 {
+        margin: auto
+    }
+
+    /* .section-4 */
+
+    /* .section-5 */
     .section-5 {
         flex-direction: column;
     }
-        .section-5 .inner-title{
-            margin-bottom: 20px;
-            font-size: 38px;
-        }
 
-        .section-5 .inner-title-1 {
-            font-size: 22pxpx;
-        }
-        .section-5 .inner-decs {
-            font-size: 12px;
-        }
-        .section-5 img{
-            width:400px ;
-            height: 350px;
-        }
-        /* .section-5 */
+    .section-5 .inner-title {
+        margin-bottom: 20px;
+        font-size: 38px;
+    }
 
-        /* section-6 */
-        .section-6 .inner-body{
-            flex-direction: column;
-        }
-        /* section-6 */
+    .section-5 .inner-title-1 {
+        font-size: 22pxpx;
+    }
+
+    .section-5 .inner-decs {
+        font-size: 12px;
+    }
+
+    .section-5 img {
+        width: 400px;
+        height: 350px;
+    }
+
+    /* .section-5 */
+
+    /* section-6 */
+    .section-6 .inner-body {
+        flex-direction: column;
+    }
+
+    /* section-6 */
+
+}
+
+@media (max-width:529px) {
+
+    /* section-1 */
+    .inner-menu {
+        gap: 20px;
+        margin: 0;
 
     }
 
-    @media (max-width:529px) {
-
-        /* section-1 */
-        .inner-menu {
-            gap: 20px;
-            margin: 0;
-
-        }
-
-        .inner-card-1 h1 {
-            font-size: 32px;
-        }
-
-        .inner-card-1 h1 span {
-            font-size: 32px;
-        }
-
-        .section-1 .inner-card-2 .coffee {
-            margin-top: 100px;
-        }
-
-        /* section-1 */
-
-         /* .section-5 */
-        .section-5 img{
-            width:300px ;
-            height: 250px;
-        }
-        /* .section-5 */
-
-         /* section-6 */
-         .section-6{
-            padding:30px 30px;
-         }
-         .section-6 .inner-header{
-            flex-direction: column;
-         }
-         .section-6 input{
-            width: 130px;
-         }
-        /* section-6 */
-
+    .inner-card-1 h1 {
+        font-size: 32px;
     }
+
+    .inner-card-1 h1 span {
+        font-size: 32px;
+    }
+
+    .section-1 .inner-card-2 .coffee {
+        margin-top: 100px;
+    }
+
+    /* section-1 */
+
+    /* .section-5 */
+    .section-5 img {
+        width: 300px;
+        height: 250px;
+    }
+
+    /* .section-5 */
+
+    /* section-6 */
+    .section-6 {
+        padding: 30px 30px;
+    }
+
+    .section-6 .inner-header {
+        flex-direction: column;
+    }
+
+    .section-6 input {
+        width: 130px;
+    }
+
+    /* section-6 */
+
+}
