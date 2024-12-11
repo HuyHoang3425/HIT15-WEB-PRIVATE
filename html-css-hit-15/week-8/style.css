@@ -29,7 +29,7 @@ li {
     width: 40%;
     padding: 20px 0 0 80px;
     height: 100vh;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 /* card-1 */
@@ -142,7 +142,7 @@ li {
 /* card-3 */
 .inner-card-3 {
     display: flex;
-
+    position: relative;
     background-color: #F6EBDA;
     height: 140px;
     margin: 0 150px;
@@ -150,7 +150,7 @@ li {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 20px;
-    z-index: 100;
+    z-index: 100000;
 }
 
 .inner-card-3 img {
