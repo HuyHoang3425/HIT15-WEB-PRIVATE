@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let m  = prompt("Nhập tháng của bạn");
+        let tmp;
+        tmp = m[0].toUpperCase();
+        for(let i = 1;i < m.length;i++)
+           {
+            tmp += m[i].toLowerCase();
+           }
+        switch(tmp)
+        {
+            case "January":
+            case "March":
+            case "May":
+            case "July":
+            case "August":
+            case "October":
+            case "December":   
+            alert(tmp + " has 31 days");
+            break;
+
+            case "F":
+            alert(tmp + " has 30 days");
+            break;
+            
+            break;
+
+
+
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <title>Tràn bộ nhớ</title> 
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  
+
+  <h1></h1>
+  <audio id="audioPlayer" src="./happybirthday.mp3"></audio>
+  <button id="playButton" onclick="generateRandomNotifications()">Nhấn đây nè</button>
+  <script src="./script.js"></script>
+  <script>
+    // Lấy tham chiếu đến các phần tử
+    const playButton = document.getElementById('playButton');
+    const audioPlayer = document.getElementById('audioPlayer');
+
+    // Thêm sự kiện khi ấn nút
+    playButton.addEventListener('click', () => {
+      if (audioPlayer.paused) {
+        audioPlayer.play(); // Bắt đầu chạy nhạc
+        playButton.textContent = 'Pause Music'; // Đổi nội dung nút
+      } else {
+        audioPlayer.pause(); // Tạm dừng nhạc
+        playButton.textContent = 'Nhấn đây nè'; // Đổi nội dung nút
+      }
+    });
+  </script>
+</body>
+
+</html>
