@@ -1266,6 +1266,7 @@ span::before{
     background-size: cover;
     animation: moveheart 1s linear infinite;
 }
+
 @keyframes moveheart{
     0%{
         transform: translate(0) rotate(0deg);
