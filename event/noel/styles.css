@@ -367,12 +367,16 @@ h4 {
   text-align: right;
 }
 
-.details img {
-  width: 130px;
-  height: 80px;
+.her1 {
+  width: 200px;
+  height: auto;
   border: 3px solid #f4e9e9;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-top:-30px;
+  /* margin-top:-30px; */
+  position: absolute;
+  bottom:200px;
+  left:350px;
+  transform: rotate(15deg);
 }
 
 .santa{
