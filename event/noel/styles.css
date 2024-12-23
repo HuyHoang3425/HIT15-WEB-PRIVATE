@@ -349,12 +349,12 @@ h4 {
   box-sizing: border-box;
   padding: 0 0 0 10px;
   z-index: -1;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .card .details p {
   font-size: 15px;
-  line-height: 5px;
+  /* line-height: 5px; */
   /* transform: rotate(-10deg); */
   padding: 0 0 0 20px;
 }
@@ -372,6 +372,7 @@ h4 {
   height: 80px;
   border: 3px solid #f4e9e9;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top:-30px;
 }
 
 .santa{

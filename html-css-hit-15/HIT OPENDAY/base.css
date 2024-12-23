@@ -1,0 +1,247 @@
+@media (max-width:1200px) {
+    /* section-1 */
+    .section-1 .inner-info {
+        font-size:16px;
+    }
+    .inner-content h1 {
+        font-size: 40px;
+        
+    }
+    
+    .inner-content p {
+        font-size: 16px;
+    }
+    .section-1 .inner-header img{
+        width: 50px;
+        height: 50px;
+    }
+     /* section-1 */
+
+     /* section-2 */
+     .section-2 .inner-img img{
+        height:236px;
+        width: 186px;
+    }
+    .section-2 .inner-img .inner-frame{
+        border:2px solid #ddd;
+        width: 250px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 4px 2px rgba(111, 111, 111, 0.25);
+    
+    }
+     /* section-4 */
+
+/* section-2 */
+     .section-4 .inner-body .card-2 .inner-active{
+        font-size:16px;
+    }
+    .section-4 .inner-body .card-2 .inner-title-1{
+        font-size:28px;
+    }
+    .section-4 .inner-body .card-2 .inner-decs{
+        font-size:12px;
+    }
+    .section-4 .inner-body .card-2  .inner-content .inner-title-2{
+        font-size:32px;
+        
+    }
+    .section-4 .inner-body .card-2  .inner-content  p{
+        font-size:12px;
+        font-weight: 700;
+        color: #959595;
+    }
+    /* section-4 */
+
+     /* section-5 */
+     .section-5 .inner-body .card-1 .inner-active{
+        font-size:16px;
+        
+    }
+    .section-5 .inner-body .card-1 .inner-title-1{
+        font-size:28px;
+     
+    }
+    .section-5 .inner-body .card-1 .inner-decs{
+        font-size:12px;
+        text-align: none;
+        
+    }
+    .section-5 .inner-body{
+        flex-direction: column-reverse;
+    }
+    .section-5 .inner-body .card-1{
+        width: 100%;
+    }
+    .section-5 .inner-body .card-2{
+        width: 100%;
+        ;
+    }
+     /* section-5 */
+
+
+}
+
+@media (max-width:998px) {
+    /* section-2 */
+    .section-2 .inner-img{
+       flex-direction: column;
+    }
+    .section-2 .inner-img .inner-frame:nth-child(2){
+        margin-top: 0;
+    }
+    /* section-2 */
+
+    /* section-3 */
+    .section-3 .inner-wrap-1{
+        flex-direction: column;
+    }
+    .section-3 .inner-wrap-2{
+        flex-direction: column;
+    }
+    /* section-3*/
+      /* section-4 */
+      .section-4 .inner-body{
+        flex-direction: column;
+      }
+      .section-4 .card-1{
+        width: 100%;
+      }
+      .section-4 .card-1 img{
+        width: 100%;
+      }
+      .section-4 .inner-body .card-2{
+        width: 100%;
+      }
+      
+      
+        /* section-4 */
+    
+}
+
+@media (max-width:768px) {
+    /* section-1 */
+    .section-1 .inner-info {
+        font-size:12px;
+    }
+    .inner-content h1 {
+        font-size: 32px;
+        
+    }
+    
+    .inner-content p {
+        font-size: 12px;
+    }
+    .section-1 .inner-header img{
+        width: 30px;
+        height: 30px;
+    }
+     /* section-1 */
+
+  /* section-2 */
+     .section-2 .inner-title{
+        font-size: 36px;
+       
+    }
+     /* section-2 */
+      /* section-3 */
+      .section-3 .inner-title{
+        font-size: 36px;
+       
+    }
+     /* section-3 */
+
+     /* section-4 */
+     .section-4 .inner-title{
+        font-size: 36px;
+       
+    }
+     /* section-4 */
+
+       /* section-5*/
+       .section-5 .inner-title{
+        font-size: 36px;
+       
+    }
+     /* section-5 */
+      /* section-6*/
+      .section-6 .inner-title{
+        font-size: 36px;
+       
+    }
+     /* section-6 */
+}
+
+
+
+@media (max-width:576px) {
+  /* section-1 */
+  .section-1 i{
+    display: block;
+  }
+  .section-1 span{
+    display: none;
+  }
+  .inner-content h1 {
+    font-size: 28px;
+    
+}
+
+.inner-content p {
+    font-size: 10px;
+}
+    /* section-1 */
+   
+/* section-2 */
+.section-2 .inner-title{
+    font-size: 28px;
+}
+ /* section-2 */
+ /* section-3 */
+ .section-3 .inner-title{
+    font-size: 28px;
+   
+}
+.section-3 .inner-box{
+    width: 310px;
+    height: 118px;
+   
+}
+ /* section-3 */
+
+ /* section-4 */
+ .section-3 .inner-title{
+    font-size: 28px;
+}
+ /* section-4 */
+
+  /* section-5*/
+  .section-5 .inner-title{
+    font-size: 28px;
+   
+}
+ /* section-5 */
+  /* section-6*/
+  .section-6 .inner-title{
+    font-size: 28px;
+   
+}
+ /* section-6 */
+
+  /* section-7 */
+  .section-7 .inner-img img{
+    width: 30px;
+    height:30px;
+}
+.section-7 .inner-social{
+    display: flex;
+    gap:20px;
+}
+.section-7 .inner-social img{
+    width: 19px;
+    height: 19px;
+}
+   /* section-7 */
+}

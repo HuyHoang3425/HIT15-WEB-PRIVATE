@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../week-9"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HIT OPENDAY"
+	}
+}
