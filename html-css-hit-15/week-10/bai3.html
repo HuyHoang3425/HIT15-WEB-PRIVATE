@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let n = 6;
+        for (let i = 1; i <= n; i++) {
+            let line = ""; 
+            for (let j = 1; j <= 2 * n - 1; j++) {
+                if (j >= n - i + 1 && j <= n + i - 1) {
+                    line += "*";
+                } else {
+                    line += " ";
+                }
+            }
+            console.log(line); 
+        }
+        let m = 6;
+        for (let i = 1; i <= m; i++) {
+            let line = ""; 
+            for (let j = 1; j <= 2 * m - 1; j++) {
+                if (j >= m - i + 1 && j <= m + i - 1) {
+                    line += "*";
+                } else {
+                    line += " ";
+                }
+            }
+            console.log(line); 
+            if(i == 1) break;
+        }
+        let h = 6;
+        for (let i = 1; i <= h; i++) {
+            let line = ""; 
+            for (let j = 1; j <= 2 * h - 1; j++) {
+                if (j >= h - i + 1 && j <= h + i - 1) {
+                    line += "*";
+                } else {
+                    line += " ";
+                }
+            }
+            console.log(line); 
+            if(i == 2) break;
+        }
+
+    </script>
+</body>
+
+</html>

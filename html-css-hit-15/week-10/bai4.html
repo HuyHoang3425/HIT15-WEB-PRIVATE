@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let input = prompt("nhập dãy số cách nhau bởi dấu phẩy:");
+        let number = input.split(",").map(num => parseFloat(num.trim()));
+        let numberMin = number[0];
+        let numberMax = number[0];
+        let count = 0;
+        for (let i = 0; i < number.length; i++) {
+            if (number[i] > numberMax) numberMax = number[i];
+            if (number[i] < numberMin) numberMin = number[i];
+            if (number[i] % 2 == 0) count++;
+        }
+        console.log("Mảng số:", number);
+        console.log("Số lớn nhất:", numberMax);
+        console.log("Số nhỏ nhất:", numberMin);
+        console.log("Số lượng số chẵn:", count);
+
+    </script>
+
+</body>
+
+</html>
