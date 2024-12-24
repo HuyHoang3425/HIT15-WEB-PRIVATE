@@ -7,24 +7,19 @@
 </head>
 <body>
     <script>
-        let day = prompt("Hôm nay là ngày gì");
-        let result ;
-        result = a[0].toUpperCase();
-        if(day.toLowerCase() == "saturday" || day.toLowerCase() == "sunday"){
+        let day = prompt("Hôm nay là ngày gì?");
         
-           for(let i = 1;i < day.length;i++)
-           {
-            result += day[i].toLowerCase();
-           }
-            alert(`${b} is a weekend`);
-        }
-       else{
-        for(let i = 1;i < day.length;i++)
-           {
-            result += day[i].toLowerCase();
-           }
-            alert(`${b} is a weekend`);
-       }     
+            let result = day[0].toUpperCase(); 
+    
+            for (let i = 1; i < day.length; i++) {
+                result += day[i].toLowerCase(); 
+            }
+            if (day.toLowerCase() === "saturday" || day.toLowerCase() === "sunday") {
+                alert(`${result} is a weekend`);
+            } else {
+                alert(`${result} is a working day`);
+            }
     </script>
+    
 </body>
 </html>
