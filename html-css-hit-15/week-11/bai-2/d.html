@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Ô Vuông</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+    </style>
+    <div class="container">
+        <input type="number" id="inputNumber" placeholder="Nhập số ô vuông">
+        <button id="generateButton">Tạo Ô Vuông</button>
+        <div id="boxContainer"></div>
+    </div>
+    <script src="script.js">
+        document.getElementById("generateButton").addEventListener("click", function() {
+    const inputNumber = document.getElementById("inputNumber");
+    const boxContainer = document.getElementById("boxContainer");
+
+    // Lấy số lượng ô vuông từ input
+    const numberOfBoxes = parseInt(inputNumber.value);
+
+    // Kiểm tra giá trị hợp lệ
+    if (isNaN(numberOfBoxes) || numberOfBoxes <= 0) {
+        alert("Vui lòng nhập một số nguyên dương!");
+        return;
+    }
+
+    // Xóa các ô vuông cũ
+    boxContainer.innerHTML = "";
+
+    // Tạo các ô vuông mới
+    for (let i = 1; i <= numberOfBoxes; i++) {
+        const box = document.createElement("div");
+        box.classList.add("box");
+        box.textContent = i; // Số thứ tự trên ô vuông
+        boxContainer.appendChild(box);
+    }
+});
+
+    </script>
+</body>
+</html>
