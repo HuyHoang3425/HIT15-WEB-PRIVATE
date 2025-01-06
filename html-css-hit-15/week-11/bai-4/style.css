@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;;
+}
+body{
+    background-color: #F2E5BF;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin:30px 0;
+}
+.card-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom:30px ;
+}
+.card-input .input{
+    width:40%;
+    padding:15px 30px;
+    border-radius:3px;
+    border-style: none;
+}
+.card-btn{
+    width: 10%;
+    background-color:#257180 ;
+    color:#fff;
+    border:2px solid black;
+}
+.wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.table{
+    width: 50%;
+    display: grid;
+    grid-template-columns:repeat(9,1fr);
+    gap:10px;
+    margin-bottom: 30px;
+}
+.box{
+    background-color: #FC8A51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding:8px;
+    transition: background-color 0.1s ease-in-out;
+}
+.box:hover{
+    background-color: #D68766;
+}
+input{
+    outline: none;
+}
+.exactly_down{
+    background-color:#79D7BE ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding:8px;
+    transition: background-color 0.1s ease-in-out;
+}
+.exactly_down:hover{
+    background-color:#63b19c ;
+}
+.wrong_down{
+    background-color:#FD5E53 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding:8px;
+    transition: background-color 0.1s ease-in-out;
+}
+.wrong_down:hover{
+    background-color:#d55046 ;
+}
+.result{
+    margin-bottom: 30px;
+}
+
