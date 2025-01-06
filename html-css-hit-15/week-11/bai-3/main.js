@@ -9,11 +9,8 @@ let content = document.querySelector(".content");
 let box = document.querySelector(".box");
 let draw = document.querySelector(".draw");
 let reset = document.querySelector(".reset")
-
-
 draw.addEventListener("click", picture);
 function picture() {
-
     console.log(width.value);
     box.style.width = `${width.value}`;
     box.style.height = `${height.value}`;

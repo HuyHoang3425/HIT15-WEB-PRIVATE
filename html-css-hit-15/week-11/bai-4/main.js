@@ -16,7 +16,6 @@ function add()
         div.classList.add("box");
         table.appendChild(div);
     }
-    
     let i = -1;
     let e = 0;
     let w = 0;
