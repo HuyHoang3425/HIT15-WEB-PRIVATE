@@ -13,9 +13,8 @@ let reset = document.querySelector(".reset")
 
 draw.addEventListener("click", picture);
 function picture() {
+
     console.log(width.value);
-    // box.classList.remove("box");
-    
     box.style.width = `${width.value}`;
     box.style.height = `${height.value}`;
     box.style.padding = `${padding.value}`;
@@ -27,7 +26,6 @@ function picture() {
     box.style.color = `${color.value}`;
     box.innerHTML = content.value;
 }
-
 reset.addEventListener("click",()=>{
     location.reload();
 });

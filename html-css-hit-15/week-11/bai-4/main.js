@@ -24,9 +24,6 @@ function add()
         console.log(event.key);
         let box = document.querySelectorAll(".box");
         i++;
-        // if (event.key === " ") {
-        //     event.preventDefault();
-        // }
         event.preventDefault();
             if(event.key == input.value[i])
             {
