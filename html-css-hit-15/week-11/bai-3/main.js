@@ -11,7 +11,7 @@ let draw = document.querySelector(".draw");
 let reset = document.querySelector(".reset")
 draw.addEventListener("click", picture);
 function picture() {
-    console.log(width.value);
+    box.style.display = "none";
     box.style.width = `${width.value}`;
     box.style.height = `${height.value}`;
     box.style.padding = `${padding.value}`;
@@ -22,8 +22,12 @@ function picture() {
     box.style.backgroundColor = `${background.value}`;
     box.style.color = `${color.value}`;
     box.innerHTML = content.value;
+
+    setTimeout(function () {
+        box.style.display = "block";
+    }, 500);
 }
-reset.addEventListener("click",()=>{
+reset.addEventListener("click", () => {
     location.reload();
 });
 
