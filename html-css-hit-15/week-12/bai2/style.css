@@ -61,7 +61,7 @@ button:hover{
 .delete_btn
 {
     background-color:#DC3545;
-    padding:6px;
+    width: 61.55px;
 }
 .delete_btn:hover{
     background-color:#C82333;
