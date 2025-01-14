@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F4F4F4;
+}
+.card{
+    width: 550px;
+    background-color: #FDFDFD;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:30px;
+}
+.title{
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card_input{
+    display: flex;
+    margin-bottom: 15px;
+}
+input{
+    width: 85%;
+    padding:6px 12px;
+    border-radius: 3px;
+    border:1px solid #ddd;
+    outline: none;
+    font-size: 16px;
+
+}
+button{
+    width: 15%;
+    padding:6px 12px;
+    background-color:#28A745 ;
+    color:#fff;
+    border:none;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #218838;
+}
+.child-list{
+    padding:6px 12px;
+    border-radius:3px;
+    border:1px solid #ddd;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+.delete_btn
+{
+    background-color:#DC3545;
+    padding:6px;
+}
+.delete_btn:hover{
+    background-color:#C82333;
+}

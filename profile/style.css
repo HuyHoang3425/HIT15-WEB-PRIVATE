@@ -522,22 +522,22 @@ ul li:nth-child(4) a:before {
     background-color: #ffffff99;
 }
 .animate_13{ 
-    animation: up 1.5s ease 0s forwards;
+    animation: up 1s ease-in 0s forwards;
 }
 .animate_14{
-    animation: up 1.5s ease 0.5s forwards;
+    animation: up 1s ease-in 0.2s forwards;
 }
 .animate_15{ 
-    animation: up 1.5s ease 1s forwards;
+    animation: up 1s ease-in 0.4s forwards;
 }
 .animate_16{
-    animation: up 1.5s ease 1.5s forwards;
+    animation: up 1s ease-in 0.6s forwards;
 }
 .animate_18{
-    animation: up 1.5s ease 2s forwards;
+    animation: up 1s ease-in 0.8s forwards;
 }
 .animate_19{
-    animation: up 1.5s ease 2.5s forwards;
+    animation: up 1s ease-in 1s forwards;
 }
 
 @keyframes up {
