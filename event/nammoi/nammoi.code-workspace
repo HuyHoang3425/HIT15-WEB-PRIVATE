@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../nammoi"
+		},
+		{
+			"path": "../../../烟花新年-你好2025"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nammoi"
+	}
+}
