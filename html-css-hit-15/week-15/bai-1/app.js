@@ -34,7 +34,6 @@ function display()
                     <p><span>Capital:</span> ${data[0].capital}</p>
                     <p><span>Population:</span> ${data[0].population}</p>
                 </div>
-            <
             `
             }
         }) 
