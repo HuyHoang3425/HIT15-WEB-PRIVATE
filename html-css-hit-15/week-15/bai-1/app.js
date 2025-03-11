@@ -33,8 +33,7 @@ function display()
                     <p><span>Region:</span> ${data[0].region}</p>
                     <p><span>Capital:</span> ${data[0].capital}</p>
                     <p><span>Population:</span> ${data[0].population}</p>
-                </div>
-            `
+                </div>`
             }
         }) 
         input.value = "";    
