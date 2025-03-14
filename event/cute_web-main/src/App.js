@@ -83,7 +83,7 @@ const Title = styled(motion.h1)`
   transition={{ duration: 1 }}
   className="responsive-title"
 >
- Happy
+  Happy White Valentine's Day
 </Title>
 
 const PuppyContainer = styled(motion.div)`
@@ -205,7 +205,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-       Happy
+        Happy White Valentine's Day
       </Title>
       
       <PuppyContainer
